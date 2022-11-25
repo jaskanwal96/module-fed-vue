@@ -1,0 +1,12 @@
+{
+    "name": "root",
+    "private": true,
+    "scripts": {
+        "clean": "lerna clean --yes",
+        "bootstrap": "lerna bootstrap --hoist --no-ci --strict",
+        "start": "npm run start"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}
